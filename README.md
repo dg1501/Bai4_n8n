@@ -121,7 +121,7 @@
 
 - Truy cập `http://pma.ducduong.id.vn`
 
-- Bước kiểm tra đầu tiên: Truy cập sub-domain2 (phpMyAdmin). Đăng nhập bằng tài khoản wp_user và mật khẩu bạn đã đặt. Bạn sẽ thấy database wordpress_db hoàn toàn trống rỗng (chưa có bảng nào).
+- Bước kiểm tra đầu tiên: Truy cập sub-domain2 (phpMyAdmin). Đăng nhập bằng tài khoản wp_user và mật khẩu đã đặt. Sẽ thấy database wordpress_db hoàn toàn trống rỗng (chưa có bảng nào).
 
 <img width="1920" height="1024" alt="{2C643BAB-F8F3-4DCA-8D29-EA0A78943628}" src="https://github.com/user-attachments/assets/c51672ce-ab71-4ec4-8a3e-885677cf1b1e" /></p>
 
@@ -129,9 +129,21 @@
 
 **b) Truy cập sub-domain1 để cài đặt wordpress (làm theo hướng dẫn của wordpress)**
 
-Cấu hình cloudflare tunnel add router để public wordpress lên sub-domain1 (dùng để truy cập wordpress)
+- Truy cập `wp.ducduong.id.vn`
 
-Cấu hình cloudflare tunnel add router để public n8n này lên sub-domain3 (dùng để truy cập và cấu hình n8n)
+<img width="1920" height="1025" alt="{47BA03D5-B00A-438E-B10A-B918931638D3}" src="https://github.com/user-attachments/assets/07f22b63-ed31-4ff9-afa4-ce468e78835f" /></p>
+
+<img width="1920" height="1028" alt="{F7ED01D2-D026-461F-AC68-BC52DEEFE07A}" src="https://github.com/user-attachments/assets/a8dd7600-5693-4f24-a630-810ce6cb73e3" /></p>
+
+👉 Sau khi cài đặt xong sẽ có thông báo 'Thành công' -> Tiến hành đăng nhập
+
+<img width="1920" height="1026" alt="image" src="https://github.com/user-attachments/assets/c91735b6-ecee-4748-833a-c463616d3181" /></p>
+
+<img width="1920" height="1031" alt="{02456A23-9A57-49EE-AB43-5C776078859A}" src="https://github.com/user-attachments/assets/74d5ac60-1429-43a2-a79d-133204bf5106" /></p>
+
+
+
+
 
 
 
