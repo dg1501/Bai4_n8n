@@ -113,7 +113,15 @@
 
 <img width="1404" height="736" alt="image" src="https://github.com/user-attachments/assets/74ba796f-4a5f-42ee-8dd5-4a8f65dec620" /></p>
 
+---
 
+### BƯỚC 4: KIỂM TRA DATABASE & CÀI ĐẶT WORDPRESS
+
+Cấu hình cloudflare tunnel add router để public wordpress lên sub-domain1 (dùng để truy cập wordpress)
+
+Cấu hình cloudflare tunnel add router để public Phpmyadmin lên sub-domain2 (dùng để truy cập phpmyadmin)
+
+Cấu hình cloudflare tunnel add router để public n8n này lên sub-domain3 (dùng để truy cập và cấu hình n8n)
 
 
 
