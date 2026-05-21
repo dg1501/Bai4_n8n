@@ -214,6 +214,20 @@
 
 - @BotFather sẽ gửi cho bạn một đoạn HTTP API Token. Hãy lưu lại.
 
+<img width="1920" height="1024" alt="{9AF7E498-30FE-4DB4-B5F0-28EBD065E409}" src="https://github.com/user-attachments/assets/c6755cbb-e115-413d-adaa-091e9122e0e0" /></p>
+
+**b) Google Gemini API Key**
+
+- Truy cập `Google AI Studio.`
+
+- Bấm Create API Key -> Chọn tạo ở một Project mới -> Hệ thống sẽ cấp cho một chuỗi API Key. Copy và lưu lại.
+
+<img width="1370" height="735" alt="{85349726-5D5F-4706-9E1E-8C59ECE2C952}" src="https://github.com/user-attachments/assets/4f496702-3e8a-4f92-a8c5-4ead13f25026" /></p>
+
+<img width="1920" height="1022" alt="{A6D48C28-E7B5-4525-85A9-FC4FE52E0118}" src="https://github.com/user-attachments/assets/a8c1408c-bd14-4948-8480-cba597606390" /></p>
+
+<img width="1378" height="737" alt="{B3556808-00F9-45C0-BA25-C6C4194DCF9A}" src="https://github.com/user-attachments/assets/2bd30cb1-2eb9-448c-b7b0-84a455195f9b" /></p>
+
 
 
 
