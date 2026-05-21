@@ -288,7 +288,7 @@
 
 <img width="1920" height="1020" alt="{0261A6C2-BF31-43BD-B2EF-D43FE85B8B0D}" src="https://github.com/user-attachments/assets/44863627-f83d-49ac-93b7-da480685da18" /></p>
 
-***c) Code (JavaScript)**
+***c) Node 3: Code (JavaScript)***
 
 - Nối tiếp sau node Gemini, bấm dấu +, tìm node Code (chọn ngôn ngữ JavaScript).
 
@@ -298,7 +298,29 @@
 
 <img width="1379" height="737" alt="{10B575FF-BB0E-48E1-A3FC-A196605AF1F8}" src="https://github.com/user-attachments/assets/4fcc055c-96a3-469e-9662-05af91c56c3d" /></p>
 
+***d) Node 4: WordPress (Create a Post)***
 
+- Nối tiếp sau node Code, tìm node WordPress -> Chọn hành động Create a Post.
+
+<img width="1920" height="1023" alt="{D70F8A60-2C93-47C8-8165-67373FF2F8D6}" src="https://github.com/user-attachments/assets/677deb1a-ef52-4069-9c58-d10818dd409d" /></p>
+
+**- Credential for WordPress API:**
+
+1. Username: Điền username tài khoản Admin WordPress.
+
+2. Password: Chuỗi 24 ký tự (Mật khẩu ứng dụng).
+
+3. WordPress URL: Điền URL trang web
+
+<img width="1920" height="1020" alt="{092FC1E5-6F6A-40EB-9FBD-B3F9F37FB29A}" src="https://github.com/user-attachments/assets/ac88ea07-f4f8-4725-b913-1ab15d50c972" /></p>
+
+**- Cấu hình thuộc tính:**
+
+1. Bật nút Ignore SSL Issues (Insecure) thành TURN ON.
+
+2. Chạy thử các node trước đó để có dữ liệu mẫu. Sau đó kéo thả trường title từ Node Code (nằm ở danh sách bên trái) vào ô Title. Kéo trường content vào ô Content.
+
+3. Bấm Add Field -> Tìm thuộc tính Status -> Chọn giá trị là Publish.
 
 
 
