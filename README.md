@@ -200,6 +200,22 @@
 
 <img width="1375" height="735" alt="{C89446F2-1AB2-4AB7-A197-75BD3B010B3B}" src="https://github.com/user-attachments/assets/7468585e-03f5-495a-9ffe-1710b281041e" /></P>
 
+---
+
+### BƯỚC 4: CHUẨN BỊ "CHÌA KHÓA" (CREDENTIALS) CHO WORKFLOW
+
+- Trước khi kéo thả, hãy chuẩn bị sẵn 3 thông tin bảo mật sau:
+
+**a) Telegram Bot Token**
+
+- Mở ứng dụng Telegram trên điện thoại/máy tính, tìm kiếm @BotFather.
+
+- Chat lệnh /newbot, đặt tên cho Bot và đặt username (kết thúc bằng chữ bot, ví dụ: my_ai_wp_bot).
+
+- @BotFather sẽ gửi cho bạn một đoạn HTTP API Token. Hãy lưu lại.
+
+
+
 
 
 
