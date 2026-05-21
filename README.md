@@ -143,13 +143,37 @@
 
 **c) Truy cập sub-domain2 để quan sát xem cơ sở dữ liệu có những bảng dữ liệu nào sau khi cài wp** 
 
-<img width="1399" height="731" alt="{46305C7C-B22E-4E9B-9574-02E846925D2C}" src="https://github.com/user-attachments/assets/fa8fd7b1-2d41-4c8c-9dc1-2fa587ac7e3e" />
+<img width="1399" height="731" alt="{46305C7C-B22E-4E9B-9574-02E846925D2C}" src="https://github.com/user-attachments/assets/fa8fd7b1-2d41-4c8c-9dc1-2fa587ac7e3e" /></p>
 
-**c) Tạo 1 bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở thích, ...**
+**c) Tạo bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở thích, ...**
 
 - Ở trang chủ Wordpress -> *Post* -> *Add New*
 
-<img width="1403" height="749" alt="{EB5DF9DB-3BC1-44FC-BF18-2CE1DDB48D5A}" src="https://github.com/user-attachments/assets/0cca9a53-dbd0-40cb-b411-5013f3ca02c2" />
+
+<img width="1403" height="749" alt="{EB5DF9DB-3BC1-44FC-BF18-2CE1DDB48D5A}" src="https://github.com/user-attachments/assets/0cca9a53-dbd0-40cb-b411-5013f3ca02c2" /></p>
+
+- `https://wp.ducduong.id.vn/2026/05/21/gioi-thieu-ban-than/`
+
+<img width="1920" height="1021" alt="{166412C2-1678-43C6-973F-FC0D8BDD0BF4}" src="https://github.com/user-attachments/assets/315c42b4-25df-40d9-9899-480422fcf0ca" /></p>
+
+<img width="1920" height="1018" alt="{338894D7-23D8-4221-965D-7C211BC9598F}" src="https://github.com/user-attachments/assets/93292cb3-94c8-490b-9110-56731096d464" /></p>
+
+**d) Tạo 1 bài viết trong wordpress giới thiệu về nhữn kiến thức mà em đã học được ở môn Phát triển ứng dụng với mã nguồn mở**
+
+- `https://wp.ducduong.id.vn/2026/05/21/tee0421/`
+
+<img width="1920" height="1024" alt="{8DA266A1-C6AC-4459-91CE-0F2BF128D2A7}" src="https://github.com/user-attachments/assets/46826466-6b21-4a7c-8274-a4d92ac4d71d" /></p>
+
+<img width="1920" height="1025" alt="{B5ACB2D2-E255-4E3A-8413-6E7DC336A97D}" src="https://github.com/user-attachments/assets/aadd07c3-b8a6-45ab-b8e3-85d05a7fcc52" /></p>
+
+<img width="1917" height="1023" alt="{9193998C-E4B0-434E-8B7E-116C2B997DD2}" src="https://github.com/user-attachments/assets/9352255c-704e-4b5c-9f65-2206aefdf0d5" /></p>
+
+<img width="1920" height="1020" alt="{66E1C3D8-925F-4316-93BE-4F86362618B3}" src="https://github.com/user-attachments/assets/957bb02f-c23f-4555-bc39-83bf564e6097" /></p>
+
+
+
+
+
 
 
 
