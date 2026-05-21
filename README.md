@@ -117,9 +117,19 @@
 
 ### BƯỚC 4: KIỂM TRA DATABASE & CÀI ĐẶT WORDPRESS
 
-Cấu hình cloudflare tunnel add router để public wordpress lên sub-domain1 (dùng để truy cập wordpress)
+**a) Truy cập sub-domain2 để quan sát xem cơ sở dữ liệu chưa có bảng nào!**
 
-Cấu hình cloudflare tunnel add router để public Phpmyadmin lên sub-domain2 (dùng để truy cập phpmyadmin)
+- Truy cập `http://pma.ducduong.id.vn`
+
+- Bước kiểm tra đầu tiên: Truy cập sub-domain2 (phpMyAdmin). Đăng nhập bằng tài khoản wp_user và mật khẩu bạn đã đặt. Bạn sẽ thấy database wordpress_db hoàn toàn trống rỗng (chưa có bảng nào).
+
+<img width="1920" height="1024" alt="{2C643BAB-F8F3-4DCA-8D29-EA0A78943628}" src="https://github.com/user-attachments/assets/c51672ce-ab71-4ec4-8a3e-885677cf1b1e" /></p>
+
+<img width="1920" height="1025" alt="{699BE811-B752-4D6A-A2D1-B961E760E4C1}" src="https://github.com/user-attachments/assets/113c1d08-01d7-4c83-8285-08f0087e2066" /></p>
+
+**b) Truy cập sub-domain1 để cài đặt wordpress (làm theo hướng dẫn của wordpress)**
+
+Cấu hình cloudflare tunnel add router để public wordpress lên sub-domain1 (dùng để truy cập wordpress)
 
 Cấu hình cloudflare tunnel add router để public n8n này lên sub-domain3 (dùng để truy cập và cấu hình n8n)
 
