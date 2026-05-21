@@ -141,6 +141,13 @@
 
 <img width="1920" height="1031" alt="{02456A23-9A57-49EE-AB43-5C776078859A}" src="https://github.com/user-attachments/assets/74d5ac60-1429-43a2-a79d-133204bf5106" /></p>
 
+**c) Truy cập sub-domain2 để quan sát xem cơ sở dữ liệu có những bảng dữ liệu nào sau khi cài wp** 
+
+<img width="1399" height="731" alt="{46305C7C-B22E-4E9B-9574-02E846925D2C}" src="https://github.com/user-attachments/assets/fa8fd7b1-2d41-4c8c-9dc1-2fa587ac7e3e" />
+
+
+
+
 
 
 
