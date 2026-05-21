@@ -145,6 +145,11 @@
 
 <img width="1399" height="731" alt="{46305C7C-B22E-4E9B-9574-02E846925D2C}" src="https://github.com/user-attachments/assets/fa8fd7b1-2d41-4c8c-9dc1-2fa587ac7e3e" />
 
+**c) Tạo 1 bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở thích, ...**
+
+- Ở trang chủ Wordpress -> *Post* -> *Add New*
+
+<img width="1403" height="749" alt="{EB5DF9DB-3BC1-44FC-BF18-2CE1DDB48D5A}" src="https://github.com/user-attachments/assets/0cca9a53-dbd0-40cb-b411-5013f3ca02c2" />
 
 
 
