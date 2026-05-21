@@ -228,6 +228,25 @@
 
 <img width="1378" height="737" alt="{B3556808-00F9-45C0-BA25-C6C4194DCF9A}" src="https://github.com/user-attachments/assets/2bd30cb1-2eb9-448c-b7b0-84a455195f9b" /></p>
 
+**c) WordPress Application Password**
+
+- Vào trang quản trị WordPress (sub-domain1/wp-admin).
+
+- Vào Users (Tài khoản) -> Profile (Hồ sơ của bạn).
+
+- Kéo xuống dưới cùng tìm mục Application Passwords (Mật khẩu ứng dụng).
+
+- Nhập tên là n8n rồi bấm Add New Application Password.
+
+- WordPress sẽ hiện ra một chuỗi 24 ký tự. Hãy sao chép nó (đây là mật khẩu để n8n có quyền đăng bài thay bạn).
+
+<img width="1917" height="1030" alt="{D8EE5398-0486-48F1-97CC-65E83483B51F}" src="https://github.com/user-attachments/assets/f8537785-2f17-4b22-b048-ab3a6bca36ed" /></p>
+
+---
+
+### BƯỚC 5: XÂY DỰNG WORKFLOW TRÊN N8N
+
+- Tại trang chủ n8n, chọn Workflows -> Create workflow. Bạn sẽ tạo một chuỗi gồm 4 node nối tiếp nhau:
 
 
 
