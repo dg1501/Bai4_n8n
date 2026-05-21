@@ -45,9 +45,81 @@
 
 <img width="1399" height="699" alt="{6A093E63-06AE-4F8A-B634-E131E9AC043C}" src="https://github.com/user-attachments/assets/26dc260d-df15-425f-9b5c-86a8614ab35c" /></p>
 
-👉 Kết quả
+👉 Kết quả (full command và token lấy từ dashboard của cloudflare, dùng AI chuyển sang dạng docker compose)
 
 <img width="1332" height="732" alt="{A5BD46E1-806E-41BB-B49A-C08AF77552D4}" src="https://github.com/user-attachments/assets/966c1256-154d-4446-b1bd-48d784be0bd8" /></p>
+
+---
+
+### BƯỚC 2: TRIỂN KHAI HỆ THỐNG
+
+- Khởi chạy các container `docker compose up -d`
+
+<img width="1788" height="1054" alt="{54A2CEC6-2802-437D-A2D0-80F218CF495B}" src="https://github.com/user-attachments/assets/fbdb3dd8-ea64-48d2-b088-c290342de6b3" /></p>
+
+- Kiểm tra trạng thái hệ thống `docker compose ps`
+
+<img width="1737" height="1055" alt="{52475A5A-E254-439C-980D-3F2BC8460ED4}" src="https://github.com/user-attachments/assets/47fc422f-e221-424c-8691-2a3a0de81f54" /></p>
+
+---
+
+### BƯỚC 3: CẤU HÌNH CLOUDFLARE TUNNEL (ADD ROUTER)
+
+- Truy cập vào trang Cloudflare Zero Trust Dashboard -> Access -> Tunnels, chọn Tunnel của và thêm 3 Public Hostname tương ứng với 3 sub-domain:
+
+**a) Cấu hình cho WordPress (Trang web chính)**
+
+- Subdomain: Điền wp
+
+- Domain: Nhấp vào và chọn tên miền của bạn (ducduong.id.vn)
+
+- Path: Để trống.
+
+- Service - Type: Chọn HTTP
+
+- Service - URL: Điền chính xác: wordpress:80
+
+<img width="1918" height="1025" alt="{6ADD232D-DF2B-43A7-A4F7-F4F8D14E0CF7}" src="https://github.com/user-attachments/assets/f0146ec5-98ba-4800-912e-c180ac2b001d" /></p>
+
+**b) Cấu hình cho phpMyAdmin**
+
+- Subdomain: Điền pma
+
+- Domain: Chọn tên miền của bạn (ducduong.id.vn)
+
+- Path: Để trống.
+
+- Service - Type: Chọn HTTP
+
+- Service - URL: Điền chính xác: phpmyadmin:80
+
+<img width="1920" height="1023" alt="{060A52D8-8C95-4161-B8B0-12B6BDC6D1C7}" src="https://github.com/user-attachments/assets/388cb789-d4ab-4026-997a-1617c9be3441" /></p>
+
+**c) Cấu hình cho n8n (Tự động hóa)**
+
+- Subdomain: Điền n8n (Bắt buộc điền đúng từ này vì nó phải khớp với biến WEBHOOK_URL trong file yml lúc nãy)
+
+- Domain: Chọn domain của bạn (ducduong.id.vn)
+
+- Path: Để trống.
+
+- Service - Type: Chọn HTTP
+
+- Service - URL: Điền tên service của n8n kèm cổng mặc định của nó: n8n:5678
+
+<img width="1920" height="1024" alt="{E16A9D24-8254-4AC5-9F82-64D43FC4F564}" src="https://github.com/user-attachments/assets/be3bae34-b9cb-41a7-b757-d24bf1691d24" /></p>
+
+👉 Kết quả
+
+<img width="1404" height="736" alt="image" src="https://github.com/user-attachments/assets/74ba796f-4a5f-42ee-8dd5-4a8f65dec620" /></p>
+
+
+
+
+
+
+
+
 
 
 
