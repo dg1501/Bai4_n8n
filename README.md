@@ -63,7 +63,9 @@
 
 ---
 
-### BƯỚC 3: CẤU HÌNH CLOUDFLARE TUNNEL (ADD ROUTER)
+## 2. YÊU CẦU KHI CÓ 5 SERVICE
+
+### BƯỚC 1: CẤU HÌNH CLOUDFLARE TUNNEL (ADD ROUTER)
 
 - Truy cập vào trang Cloudflare Zero Trust Dashboard -> Access -> Tunnels, chọn Tunnel của và thêm 3 Public Hostname tương ứng với 3 sub-domain:
 
@@ -115,7 +117,7 @@
 
 ---
 
-### BƯỚC 4: KIỂM TRA DATABASE & CÀI ĐẶT WORDPRESS
+### BƯỚC 2: KIỂM TRA DATABASE & CÀI ĐẶT WORDPRESS
 
 **a) Truy cập sub-domain2 để quan sát xem cơ sở dữ liệu chưa có bảng nào!**
 
@@ -169,6 +171,45 @@
 <img width="1917" height="1023" alt="{9193998C-E4B0-434E-8B7E-116C2B997DD2}" src="https://github.com/user-attachments/assets/9352255c-704e-4b5c-9f65-2206aefdf0d5" /></p>
 
 <img width="1920" height="1020" alt="{66E1C3D8-925F-4316-93BE-4F86362618B3}" src="https://github.com/user-attachments/assets/957bb02f-c23f-4555-bc39-83bf564e6097" /></p>
+
+---
+
+### BƯỚC 3: KÍCH HOẠT LICENSE COMMUNITY CHO N8N
+
+- Truy cập `https://n8n.ducduong.id.vn/`
+
+<img width="1920" height="1027" alt="{BC9F6503-0D25-43B0-84C3-D1C3DF251ED7}" src="https://github.com/user-attachments/assets/faec0377-3651-4bae-9836-f9dc852ed14e" /></p>
+
+- ***B1: Tạo tài khoản admin của n8n (Nhập đúng Email của bạn).***
+
+<img width="1920" height="1030" alt="{9BF90F3C-9CDD-4155-9EF8-7CF7A9BCF08B}" src="https://github.com/user-attachments/assets/90f52fd2-a2b6-4a80-a004-e0e507e0a9bd" /></p>
+
+- Khi giao diện hiện bảng Send me a License key, bạn điền đầy đủ thông tin rồi đợi một chút.
+
+<img width="1566" height="746" alt="{90F8EC41-7304-4ABA-B86F-B8904EBB4736}" src="https://github.com/user-attachments/assets/61552884-4688-4c9b-9d06-42c970ee6862" /></p>
+
+- ***B2: Mở Email ra, copy đoạn mã Activation Key mà n8n gửi về.***
+
+<img width="1374" height="732" alt="{BFB6DF70-AEBC-4CD2-A629-BD26764FF8E9}" src="https://github.com/user-attachments/assets/e203a2ac-3c84-4338-9324-246e4defa080" /></p>
+
+- ***B3: Trên giao diện n8n: Chọn Settings (bánh răng góc dưới bên trái) -> Usage and plan -> Bấm Enter activation key -> Paste mã vào và bấm Activate. Bạn sẽ thấy thông báo kích hoạt thành công góc dưới bên phải.**
+
+<img width="1920" height="1026" alt="{F2AA2BD2-774C-4D97-8E74-4CD71B1B74A0}" src="https://github.com/user-attachments/assets/703e22fc-d83d-4e0f-a75b-3c9362e55295" /></P>
+
+<img width="1920" height="1021" alt="{FB5DCC91-A9EF-4795-A5E2-C9125941BD93}" src="https://github.com/user-attachments/assets/44907813-ae06-474e-b1ba-8ff5faea856a" /></P>
+
+<img width="1375" height="735" alt="{C89446F2-1AB2-4AB7-A197-75BD3B010B3B}" src="https://github.com/user-attachments/assets/7468585e-03f5-495a-9ffe-1710b281041e" /></P>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
