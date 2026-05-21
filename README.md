@@ -248,11 +248,55 @@
 
 - Tại trang chủ n8n, chọn Workflows -> Create workflow. Bạn sẽ tạo một chuỗi gồm 4 node nối tiếp nhau:
 
+<img width="1920" height="1024" alt="{42A1D774-57C1-4AF8-9D46-4310EA46E609}" src="https://github.com/user-attachments/assets/dd43ce64-760a-4ec0-bc6a-5eb9a72c9b51" /></p>
 
+***a) Node 1: Telegram Trigger**
 
+- Bấm dấu +, tìm node Telegram, chọn Telegram Trigger (Sự kiện: On Message).
 
+<img width="1920" height="1024" alt="image" src="https://github.com/user-attachments/assets/025c79f0-b5ba-4929-8ba6-b90ada02ffc6" /></p>
 
+- Mục Credential for Telegram API: Chọn Create New Credential, dán đoạn Telegram Bot Token vào.
 
+<img width="1916" height="1019" alt="{83C53FBB-3F73-4C45-BF1D-87BCFA167622}" src="https://github.com/user-attachments/assets/cdd45377-8d48-428c-af08-415304ee2654" /></p>
+
+- Bấm Listen for test event để n8n chờ. Lúc này, lấy điện thoại nhắn tin cho Bot Telegram một câu bất kỳ (vd: "Viết bài về lợi ích của mã nguồn mở"). Bạn sẽ thấy dữ liệu dạng JSON đổ về n8n thành công.
+
+<img width="1920" height="1014" alt="{A4AA3F10-0E94-4735-BEE1-E8C84FC50742}" src="https://github.com/user-attachments/assets/4bf0d092-c54a-44a2-85bf-1d4c4d4155f9" /></p>
+
+<img width="1917" height="1023" alt="{9253A52F-DC78-4D23-98DF-7FBE39B8DFC1}" src="https://github.com/user-attachments/assets/2aa73f0b-b1fc-4de7-ab0c-2b871fb400da" /></p>
+
+***b) Node 2: Google Gemini (Advanced AI)***
+
+- Kéo dây từ Node Telegram ra, tìm kiếm Google Gemini -> Chọn Message a model.
+
+<img width="1920" height="1024" alt="{F66259A2-0C87-4086-ABC1-4B2A8149AF5B}" src="https://github.com/user-attachments/assets/d3883c41-f7f1-4431-bf28-93abce8da03b" /></p>
+
+- Mục Credential for Google Gemini API: Tạo mới và dán Gemini API Key vào.
+
+<img width="1920" height="1022" alt="{D8A488BE-1F55-480C-9997-27E5922C4846}" src="https://github.com/user-attachments/assets/8ecbd261-ce40-4052-b5fd-405965f3d6f0" /></p>
+
+- Cấu hình Model: Chọn model đời mới ổn định (như gemini-2.0-flash hoặc gemini-pro).
+
+<img width="1918" height="1022" alt="{56922111-B915-4BBC-A8B8-4418FB607243}" src="https://github.com/user-attachments/assets/4a78f943-2312-46c1-9a98-744f4247d4aa" /></p>
+
+- Cấu hình Prompt (Quan trọng nhất để Code JS chạy được): Do đoạn code JS của đề bài yêu cầu đầu ra phải là một chuỗi JSON có chứa post_title và post_content, cần cấu hình phần Prompt thật nghiêm ngặt như sau:
+
+- Kéo thả biến chứa nội dung chat từ bên trái vào, hoặc gõ chuẩn:
+
+<img width="1525" height="410" alt="{31438E89-9927-45F2-96A5-AD11AFCDB029}" src="https://github.com/user-attachments/assets/e0187cd6-bac2-4f24-94cb-e6985b5b3b6e" /></p>
+
+<img width="1920" height="1020" alt="{0261A6C2-BF31-43BD-B2EF-D43FE85B8B0D}" src="https://github.com/user-attachments/assets/44863627-f83d-49ac-93b7-da480685da18" /></p>
+
+***c) Code (JavaScript)**
+
+- Nối tiếp sau node Gemini, bấm dấu +, tìm node Code (chọn ngôn ngữ JavaScript).
+
+<img width="1920" height="1024" alt="{1F3E4A11-344B-409F-B2E0-1673CD75930A}" src="https://github.com/user-attachments/assets/39cc6892-365f-46f7-9900-a78335a39cb9" /></p>
+
+- Xóa hết code mặc định của n8n đi và paste nguyên văn đoạn code thầy giáo cho vào:
+
+<img width="1379" height="737" alt="{10B575FF-BB0E-48E1-A3FC-A196605AF1F8}" src="https://github.com/user-attachments/assets/4fcc055c-96a3-469e-9662-05af91c56c3d" /></p>
 
 
 
