@@ -298,6 +298,8 @@
 
 <img width="1379" height="737" alt="{10B575FF-BB0E-48E1-A3FC-A196605AF1F8}" src="https://github.com/user-attachments/assets/4fcc055c-96a3-469e-9662-05af91c56c3d" /></p>
 
+<img width="1920" height="1017" alt="{57A7331B-D084-4342-B903-DFBAB4D53F8C}" src="https://github.com/user-attachments/assets/e8724c4d-bf60-48de-b268-6ad54356eca0" /></p>
+
 ***d) Node 4: WordPress (Create a Post)***
 
 - Nối tiếp sau node Code, tìm node WordPress -> Chọn hành động Create a Post.
