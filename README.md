@@ -332,13 +332,13 @@
 
 1. Chat bot Telegram:
 
-<img width="1920" height="1023" alt="image" src="https://github.com/user-attachments/assets/4e666a3b-cac9-4b42-b617-f938e25eabf5" /></P>
+<img width="818" height="439" alt="{40A9D75B-5CD0-4593-8DC1-CDF0E2F5C959}" src="https://github.com/user-attachments/assets/db9c1e44-23ec-41a6-bc9a-ecc5aa985268" /></p>
 
 <img width="1920" height="1015" alt="{B200BF15-2ACE-4116-BFC6-7AAF293F0409}" src="https://github.com/user-attachments/assets/ad8d2281-7747-4b5f-b102-2d177bafb7bd" /></p>
 
 2. F5 lại wordpress để thấy kết quả
 
-<img width="1920" height="1023" alt="{ACFE45A7-41E1-42E9-BE9E-66763C697638}" src="https://github.com/user-attachments/assets/97434a26-55ee-4868-a068-03111a1b2f3b" /></p>
+<img width="1920" height="1023" alt="{D8742A3D-3B7D-4EA1-94A0-D2C1EB8F0D21}" src="https://github.com/user-attachments/assets/b55ad077-ebe8-4e03-a098-7a205b3f80e6" /></p>
 
 ---
 
