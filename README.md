@@ -316,13 +316,16 @@
 
 <img width="1920" height="1020" alt="{092FC1E5-6F6A-40EB-9FBD-B3F9F37FB29A}" src="https://github.com/user-attachments/assets/ac88ea07-f4f8-4725-b913-1ab15d50c972" /></p>
 
-**- Cấu hình thuộc tính:**
+4. Bật Ignore SSL Issues
 
-1. Bật nút Ignore SSL Issues (Insecure) thành TURN ON.
+<img width="1920" height="1025" alt="{A55BB1D6-0403-40F3-B394-99BF0F6770B3}" src="https://github.com/user-attachments/assets/a4d9bbb8-1dd3-4c0f-93e0-6eb58cafb03d" /></p>
 
-2. Chạy thử các node trước đó để có dữ liệu mẫu. Sau đó kéo thả trường title từ Node Code (nằm ở danh sách bên trái) vào ô Title. Kéo trường content vào ô Content.
+5. Publish Workflow
 
-3. Bấm Add Field -> Tìm thuộc tính Status -> Chọn giá trị là Publish.
+<img width="1541" height="754" alt="{D30107B8-A25B-476D-B21F-B6BFB73AC80F}" src="https://github.com/user-attachments/assets/c4794881-a7e2-493e-bf31-6136caf960e9" /></p>
+
+
+
 
 
 
