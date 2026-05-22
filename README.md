@@ -324,6 +324,55 @@
 
 <img width="1541" height="754" alt="{D30107B8-A25B-476D-B21F-B6BFB73AC80F}" src="https://github.com/user-attachments/assets/c4794881-a7e2-493e-bf31-6136caf960e9" /></p>
 
+<img width="1920" height="1014" alt="{6F9190BC-5567-4ABA-A76D-88792A579E73}" src="https://github.com/user-attachments/assets/c0441237-c9b5-45f1-853f-38fe6cedbc69" /></p>
+
+---
+
+## 3. KIỂM TRA KẾT QUẢ
+
+1. Chat bot Telegram:
+
+<img width="1920" height="1023" alt="image" src="https://github.com/user-attachments/assets/4e666a3b-cac9-4b42-b617-f938e25eabf5" /></P>
+
+<img width="1920" height="1015" alt="{B200BF15-2ACE-4116-BFC6-7AAF293F0409}" src="https://github.com/user-attachments/assets/ad8d2281-7747-4b5f-b102-2d177bafb7bd" /></p>
+
+2. F5 lại wordpress để thấy kết quả
+
+<img width="1920" height="1023" alt="{ACFE45A7-41E1-42E9-BE9E-66763C697638}" src="https://github.com/user-attachments/assets/97434a26-55ee-4868-a068-03111a1b2f3b" /></p>
+
+---
+
+## 4. NHẬN XÉT KẾT QUẢ ĐẠT ĐƯỢC
+
+Sau khi hoàn thành bài tập, em đã triển khai thành công hệ thống WordPress kết hợp với n8n bằng Docker trên môi trường Ubuntu sử dụng Hyper-V. Hệ thống bao gồm đầy đủ các service: MariaDB, WordPress, phpMyAdmin, Cloudflared và n8n, hoạt động ổn định thông qua Docker Compose.
+
+Thông qua bài tập này, em đã hiểu rõ hơn về cách sử dụng Docker để đóng gói và quản lý nhiều service cùng lúc. Em biết cách cấu hình file `docker-compose.yml`, thiết lập volumes để lưu trữ dữ liệu, sử dụng biến môi trường để kết nối giữa các container và quản lý vòng đời container bằng các lệnh như `docker compose up -d`, `docker ps`, `docker logs`.
+
+Ngoài ra, em cũng đã thực hiện thành công việc public các service ra Internet bằng Cloudflare Tunnel mà không cần mở port trực tiếp trên modem mạng nội bộ. Điều này giúp hệ thống có thể truy cập từ bên ngoài thông qua các subdomain riêng biệt cho WordPress, phpMyAdmin và n8n.
+
+Về WordPress, em đã cài đặt website hoàn chỉnh, tạo bài viết giới thiệu bản thân và bài viết về kiến thức đã học trong môn Phát triển ứng dụng với mã nguồn mở. Em hiểu thêm về cách WordPress lưu trữ dữ liệu trong MariaDB và có thể quan sát các bảng dữ liệu được tạo tự động sau khi cài đặt.
+
+Đối với n8n, em đã tạo được workflow tự động hóa kết nối giữa Telegram, Google Gemini AI và WordPress. Khi gửi tin nhắn từ Telegram bot, nội dung sẽ được chuyển tới Gemini AI để sinh bài viết HTML/CSS, sau đó tự động đăng bài lên WordPress thông qua node WordPress Create a Post. Đây là phần giúp em hiểu rõ hơn về workflow automation, AI integration và khả năng kết nối giữa các nền tảng khác nhau.
+
+Qua bài tập này, em đã học được nhiều kiến thức thực tế về:
+
+* Docker và Docker Compose
+* Containerization
+* Quản lý cơ sở dữ liệu MariaDB
+* Hệ quản trị nội dung WordPress
+* Cloudflare Tunnel
+* Workflow automation với n8n
+* Tích hợp Telegram Bot API
+* Sử dụng Google Gemini API
+* Kết nối và tự động đăng bài lên WordPress bằng AI
+
+Bài tập giúp em nâng cao kỹ năng triển khai hệ thống thực tế, xử lý lỗi trong quá trình cấu hình container và hiểu được cách các dịch vụ mã nguồn mở có thể kết hợp với nhau để xây dựng một hệ thống tự động hóa hoàn chỉnh.
+
+
+
+
+
+
 
 
 
