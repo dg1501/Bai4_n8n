@@ -147,7 +147,7 @@
 
 <img width="1399" height="731" alt="{46305C7C-B22E-4E9B-9574-02E846925D2C}" src="https://github.com/user-attachments/assets/fa8fd7b1-2d41-4c8c-9dc1-2fa587ac7e3e" /></p>
 
-**c) Tạo bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở thích, ...**
+**d) Tạo bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở thích, ...**
 
 - Ở trang chủ Wordpress -> *Post* -> *Add New*
 
@@ -160,7 +160,7 @@
 
 <img width="1920" height="1018" alt="{338894D7-23D8-4221-965D-7C211BC9598F}" src="https://github.com/user-attachments/assets/93292cb3-94c8-490b-9110-56731096d464" /></p>
 
-**d) Tạo 1 bài viết trong wordpress giới thiệu về nhữn kiến thức mà em đã học được ở môn Phát triển ứng dụng với mã nguồn mở**
+**e) Tạo 1 bài viết trong wordpress giới thiệu về nhữn kiến thức mà em đã học được ở môn Phát triển ứng dụng với mã nguồn mở**
 
 - `https://wp.ducduong.id.vn/2026/05/21/tee0421/`
 
